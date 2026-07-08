@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql:3306/${DB_NAME:kanban}?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+
+app:
+  attachments:
+    storage-path: /data/attachments
